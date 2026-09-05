@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Privacy Policy for House Of Java (HOJ).">
+  <title>Privacy Policy | House Of Java</title>
+  <style>
+    :root {
+      --bg: #f7f7f5;
+      --surface: #ffffff;
+      --text: #1f2328;
+      --muted: #667085;
+      --border: #dedede;
+      --accent: #6f4e37;
+      --accent-dark: #513725;
+      --soft: #f1ece8;
+      --max-width: 920px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+    }
+
+    a {
+      color: var(--accent-dark);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+
+    a:hover {
+      color: var(--accent);
+    }
+
+    .site-header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .header-inner {
+      width: min(var(--max-width), calc(100% - 32px));
+      margin: 0 auto;
+      padding: 28px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .brand {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .brand-name {
+      margin: 0;
+      font-size: 1.25rem;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+
+    .brand-subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .header-link {
+      white-space: nowrap;
+      font-size: 0.9rem;
+    }
+
+    main {
+      width: min(var(--max-width), calc(100% - 32px));
+      margin: 42px auto 72px;
+    }
+
+    .hero {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 34px;
+      margin-bottom: 24px;
+    }
+
+    .eyebrow {
+      margin: 0 0 10px;
+      color: var(--accent);
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.15;
+    }
+
+    .lead {
+      margin: 0;
+      max-width: 720px;
+      color: #475467;
+      font-size: 1.05rem;
+    }
+
+    .meta {
+      margin-top: 22px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .notice {
+      background: var(--soft);
+      border: 1px solid #ddd1c8;
+      border-radius: 8px;
+      padding: 18px 20px;
+      margin-bottom: 24px;
+    }
+
+    .notice strong {
+      color: var(--accent-dark);
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 220px minmax(0, 1fr);
+      gap: 28px;
+      align-items: start;
+    }
+
+    .toc {
+      position: sticky;
+      top: 24px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 18px;
+    }
+
+    .toc-title {
+      margin: 0 0 12px;
+      font-size: 0.9rem;
+      font-weight: 700;
+    }
+
+    .toc a {
+      display: block;
+      padding: 6px 0;
+      color: var(--muted);
+      font-size: 0.88rem;
+      text-decoration: none;
+    }
+
+    .toc a:hover {
+      color: var(--accent-dark);
+    }
+
+    .content {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 34px;
+    }
+
+    section + section {
+      margin-top: 38px;
+      padding-top: 34px;
+      border-top: 1px solid var(--border);
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 1.35rem;
+      line-height: 1.3;
+    }
+
+    h3 {
+      margin: 24px 0 8px;
+      font-size: 1.05rem;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    ul {
+      margin: 10px 0 16px;
+      padding-left: 22px;
+    }
+
+    li + li {
+      margin-top: 7px;
+    }
+
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 16px;
+      font-size: 0.94rem;
+    }
+
+    .data-table th,
+    .data-table td {
+      padding: 13px 12px;
+      border: 1px solid var(--border);
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .data-table th {
+      background: #f8f8f7;
+      font-weight: 700;
+    }
+
+    .contact-card {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 18px 20px;
+      background: #fafafa;
+    }
+
+    .placeholder {
+      display: inline-block;
+      padding: 1px 5px;
+      background: #fff4cf;
+      border: 1px solid #ead88b;
+      border-radius: 4px;
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 0.92em;
+    }
+
+    footer {
+      width: min(var(--max-width), calc(100% - 32px));
+      margin: 0 auto;
+      padding: 26px 0 40px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.88rem;
+      text-align: center;
+    }
+
+    @media (max-width: 760px) {
+      .header-inner {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      main {
+        margin-top: 24px;
+      }
+
+      .hero,
+      .content {
+        padding: 24px;
+      }
+
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .toc {
+        position: static;
+      }
+
+      .data-table {
+        display: block;
+        overflow-x: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="brand">
+        <p class="brand-name">House Of Java</p>
+        <p class="brand-subtitle">HOJ Privacy Policy</p>
+      </div>
+      <a class="header-link" href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <div class="hero">
+      <p class="eyebrow">Privacy</p>
+      <h1>Privacy Policy</h1>
+      <p class="lead">
+        This Privacy Policy explains how House Of Java (HOJ) handles information when you use
+        the HOJ Android application and connect it to an HOJ server.
+      </p>
+      <div class="meta">
+        Effective date: September 5, 2026 &nbsp;•&nbsp; Last updated: September 5, 2026
+      </div>
+    </div>
+
+    <div class="notice">
+      <strong>Before publishing:</strong>
+      replace the highlighted contact and organization placeholders near the bottom of this page
+      with your real information.
+    </div>
+
+    <div class="layout">
+      <nav class="toc" aria-label="Privacy policy sections">
+        <p class="toc-title">On this page</p>
+        <a href="#overview">1. Overview</a>
+        <a href="#information">2. Information we handle</a>
+        <a href="#location">3. Location data</a>
+        <a href="#camera">4. Camera access</a>
+        <a href="#device">5. Device information</a>
+        <a href="#use">6. How information is used</a>
+        <a href="#storage">7. Storage and servers</a>
+        <a href="#sharing">8. Sharing</a>
+        <a href="#retention">9. Retention</a>
+        <a href="#security">10. Security</a>
+        <a href="#choices">11. Your choices</a>
+        <a href="#deletion">12. Account deletion</a>
+        <a href="#children">13. Students and minors</a>
+        <a href="#changes">14. Changes</a>
+        <a href="#contact">15. Contact</a>
+      </nav>
+
+      <article class="content">
+        <section id="overview">
+          <h2>1. Overview</h2>
+          <p>
+            House Of Java (HOJ) is an event, attendance, notification, profile, and administrative
+            application. Depending on your role and the features enabled by the organization operating
+            the HOJ server, the app may process account information, attendance records, event data,
+            device identifiers, precise location, QR codes, profile images, and finance-related records.
+          </p>
+          <p>
+            HOJ is designed to communicate with an HOJ server selected by the user or organization.
+            In many deployments, that server is operated locally by the school, organization, event
+            administrator, or other entity using HOJ.
+          </p>
+        </section>
+
+        <section id="information">
+          <h2>2. Information we handle</h2>
+          <p>The types of information handled by HOJ may include:</p>
+
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Category</th>
+                <th>Examples</th>
+                <th>Purpose</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Account information</td>
+                <td>Name, email address, student ID, program/course or other profile details</td>
+                <td>Account creation, authentication, identification, and role-based access</td>
+              </tr>
+              <tr>
+                <td>Attendance information</td>
+                <td>Event, attendance status, attendance time, points, QR validation results</td>
+                <td>Recording and verifying event participation</td>
+              </tr>
+              <tr>
+                <td>Precise location</td>
+                <td>Latitude, longitude, and location accuracy at the time an attendance QR is requested</td>
+                <td>Checking whether a student is within the permitted event attendance area</td>
+              </tr>
+              <tr>
+                <td>Device information</td>
+                <td>Android device identifier used for device registration</td>
+                <td>Preventing unauthorized attendance QR generation from unregistered devices</td>
+              </tr>
+              <tr>
+                <td>Images and files</td>
+                <td>Profile photos, event images, and optional finance receipts</td>
+                <td>Supporting profile, event, and administrative features</td>
+              </tr>
+              <tr>
+                <td>Administrative and finance data</td>
+                <td>Expense records, descriptions, amounts, receipts, event details</td>
+                <td>Providing administrative and finance-management functions</td>
+              </tr>
+              <tr>
+                <td>Technical information</td>
+                <td>Selected server address, API errors, timestamps, authentication tokens</td>
+                <td>Connecting to the server, maintaining sessions, troubleshooting, and security</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section id="location">
+          <h2>3. Precise location data</h2>
+          <p>
+            HOJ may request precise location permission when a student generates an attendance QR code.
+            Location is used to compare the student's current position with the coordinates and attendance
+            radius configured for the event.
+          </p>
+          <p>
+            The app may send the current latitude, longitude, and reported location accuracy to the
+            connected HOJ server for attendance validation. HOJ does not need continuous background
+            location tracking for its normal attendance flow.
+          </p>
+          <p>
+            If precise location permission is denied, location services are disabled, or the location
+            reading is not sufficiently accurate, location-based attendance QR generation may be unavailable.
+          </p>
+        </section>
+
+        <section id="camera">
+          <h2>4. Camera access and QR codes</h2>
+          <p>
+            HOJ uses camera permission for QR-code scanning. This includes scanning a server connection
+            QR code and, for authorized administrators, scanning student attendance QR codes.
+          </p>
+          <p>
+            Camera frames are used for QR recognition. HOJ does not require users to take or upload a
+            photograph simply to scan a QR code.
+          </p>
+        </section>
+
+        <section id="device">
+          <h2>5. Device information</h2>
+          <p>
+            HOJ may use an Android device identifier to associate a student account with a registered
+            device. This is intended to reduce unauthorized attendance activity. If a user changes devices,
+            an administrator may need to approve a device-regeneration or device-change request.
+          </p>
+        </section>
+
+        <section id="use">
+          <h2>6. How information is used</h2>
+          <p>Information handled through HOJ may be used to:</p>
+          <ul>
+            <li>Create, authenticate, and manage user accounts.</li>
+            <li>Apply Student and Administrator access permissions.</li>
+            <li>Display and manage events.</li>
+            <li>Generate, scan, validate, and confirm attendance QR codes.</li>
+            <li>Verify attendance location and enforce configured event-radius rules.</li>
+            <li>Maintain attendance records and points.</li>
+            <li>Send or display app notifications and announcements.</li>
+            <li>Manage approved device changes.</li>
+            <li>Store profile, event, and optional finance-related images.</li>
+            <li>Support administrative finance records and synchronization.</li>
+            <li>Protect the service against misuse and investigate technical problems.</li>
+          </ul>
+        </section>
+
+        <section id="storage">
+          <h2>7. Data storage and HOJ servers</h2>
+          <p>
+            HOJ is designed to connect to an HOJ server. Information submitted through the app may be
+            stored in the database and file storage configured by the organization operating that server.
+            The organization may operate the server on a local network, private computer, hosted server,
+            or other infrastructure.
+          </p>
+          <p>
+            Some app data may also be stored locally on the Android device, including session information,
+            selected server settings, and offline administrative finance records. Authentication credentials
+            and tokens should be protected using the security facilities provided by Android.
+          </p>
+          <p>
+            Because HOJ can be self-hosted, the operator of the server is responsible for the server's
+            hosting environment, database access controls, backups, network security, and applicable
+            organizational data-handling practices.
+          </p>
+        </section>
+
+        <section id="sharing">
+          <h2>8. Sharing and disclosure</h2>
+          <p>
+            HOJ does not require the sale of personal information. Information may be accessible to
+            authorized administrators and to the organization operating the HOJ server where necessary
+            to provide the application's functions.
+          </p>
+          <p>Information may also be disclosed when reasonably necessary to:</p>
+          <ul>
+            <li>Comply with applicable law, regulation, or valid legal process.</li>
+            <li>Protect users, administrators, the organization, or the security of the service.</li>
+            <li>Investigate abuse, fraud, or unauthorized access.</li>
+            <li>Support infrastructure providers used by the organization operating the server, where applicable.</li>
+          </ul>
+        </section>
+
+        <section id="retention">
+          <h2>9. Data retention</h2>
+          <p>
+            Data may be retained for as long as necessary to provide HOJ functions, maintain legitimate
+            attendance and administrative records, meet organizational requirements, resolve disputes,
+            enforce agreements, or comply with applicable legal obligations.
+          </p>
+          <p>
+            Certain short-lived technical records, such as rotating attendance QR tokens and expired
+            authentication tokens, may be automatically invalidated or removed according to server settings.
+            Retention periods for account, attendance, event, finance, and audit information may depend on
+            the organization operating the HOJ server.
+          </p>
+        </section>
+
+        <section id="security">
+          <h2>10. Security</h2>
+          <p>
+            HOJ uses reasonable technical safeguards appropriate to its architecture, including authenticated
+            API access, role-based authorization, password hashing, token-based sessions, rotating attendance
+            QR tokens, device registration, and server-side attendance validation.
+          </p>
+          <p>
+            No method of electronic storage or transmission is completely secure. Organizations deploying
+            HOJ are responsible for securely configuring their server, network, database, administrative
+            accounts, backups, and transport security.
+          </p>
+        </section>
+
+        <section id="choices">
+          <h2>11. Your choices and permissions</h2>
+          <p>
+            Android allows you to manage permissions such as Camera, Precise Location, and Notifications
+            through your device settings. Disabling a permission may prevent the related feature from working.
+          </p>
+          <p>
+            Depending on your role and the policies of the organization operating your HOJ server, you may
+            also request access to, correction of, or deletion of certain personal information.
+          </p>
+        </section>
+
+        <section id="deletion">
+          <h2>12. Account deletion</h2>
+          <p>
+            You may request deletion of your HOJ account and associated personal information by contacting
+            the organization or administrator responsible for your HOJ server, or by using the contact method
+            listed below.
+          </p>
+          <p>
+            Some records may need to be retained where required for legitimate organizational, attendance,
+            financial, security, or legal purposes. Where retention is required, access should be limited to
+            authorized personnel and the information should not be used for unrelated purposes.
+          </p>
+        </section>
+
+        <section id="children">
+          <h2>13. Students and minors</h2>
+          <p>
+            HOJ may be deployed by educational or student organizations. Where users are minors, the
+            organization operating HOJ is responsible for determining and obtaining any consent or
+            authorization required by applicable law or institutional policy.
+          </p>
+        </section>
+
+        <section id="changes">
+          <h2>14. Changes to this Privacy Policy</h2>
+          <p>
+            This Privacy Policy may be updated when HOJ features, data practices, legal requirements, or
+            deployment arrangements change. The updated version will display a revised "Last updated" date.
+            Material changes should be communicated through an appropriate channel when required.
+          </p>
+        </section>
+
+        <section id="contact">
+          <h2>15. Contact</h2>
+          <p>
+            For privacy questions, account-deletion requests, or concerns about how your information is handled,
+            contact:
+          </p>
+
+          <div class="contact-card">
+            <p><strong>Application:</strong> House Of Java (HOJ)</p>
+            <p><strong>Operator / Organization:</strong> <span class="placeholder">YOUR ORGANIZATION NAME</span></p>
+            <p><strong>Email:</strong> <span class="placeholder">YOUR-PRIVACY-EMAIL@example.com</span></p>
+            <p><strong>Country:</strong> Philippines</p>
+          </div>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2026 House Of Java. All rights reserved.
+  </footer>
+</body>
+</html>
